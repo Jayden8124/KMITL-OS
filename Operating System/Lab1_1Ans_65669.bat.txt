@@ -1,0 +1,7 @@
+REM 65050669 Pakkhapol Saekow
+REM copy sub\test1.txt .\test1.txt
+REM copy c:\oslab1\sub\test1.txt .\test2.txt
+REM md c:\oslab1\abc
+REM del test2.txt
+REM rd /s /q c:\oslab1\sub
+REM C:\Windows\System32

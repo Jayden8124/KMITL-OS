@@ -1,0 +1,42 @@
+mkdir sub1
+
+cd sub1
+
+echo "" > F11.txt
+
+REM another way to create empty file
+
+copy F11.txt F12.txt 
+
+mkdir C:\Work\OS\q2\sub1\sub3
+
+copy F11.txt sub3\F13.txt
+
+copy F12.txt ..\q2
+
+cd ..
+
+md sub2
+
+copy .\sub1\F11.txt .\sub2\F21.txt
+
+copy .\sub1\F12.txt .\sub2\F22.txt
+
+copy .\sub1\sub3\F13.txt .\sub2\F23.txt
+
+ren .\sub2\F22.txt F22.doc
+
+REM 1.relative
+REM 2.relative
+REM 3.relative
+REM 4.relavtive (not sure for comment)
+REM 5.relative-relative
+REM 6.absolute
+REM 7.relative-relative
+REM 8.relative-relative
+REM 9.relative-relative
+REM 10.relative-relative
+REM 11.relative-relative
+
+REM rmdir c:\Work\OS\q2\sub1 /s /q
+REM del sub2\*.txt
